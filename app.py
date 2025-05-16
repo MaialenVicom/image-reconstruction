@@ -253,7 +253,7 @@ if archivo_subido and nombre_seleccionado:
     dispositivo = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     lpips_fn = lpips.LPIPS(net='alex').to(dispositivo)
     modelo = ConvAutoencoder().to(dispositivo)
-    checkpoint = torch.load("autoencoder/Buenos/checkpoint_1.pt", map_location=dispositivo)
+    checkpoint = torch.load("checkpoint_1.pt", map_location=dispositivo)
     modelo.load_state_dict(checkpoint['model_state_dict'])
     modelo.eval()
 

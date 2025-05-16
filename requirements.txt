@@ -1,7 +1,6 @@
 streamlit
 torch
 torchvision
-numpy
 Pillow
 albumentations
 opencv-python
@@ -11,3 +10,5 @@ pandas
 tqdm
 matplotlib
 piq
+opencv-python-headless
+numpy

@@ -232,7 +232,7 @@ st.markdown("""
 # Cabecera con logo y título
 st.markdown("""
 <header>
-    <h1>🧽 Restaurador de Imágenes - Centro Tecnológico Vicomtech</h1>
+    <h1>🧽 Restaurador de Imágenes</h1>
 </header>
 """, unsafe_allow_html=True)
 

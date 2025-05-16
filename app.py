@@ -232,7 +232,6 @@ st.markdown("""
 # Cabecera con logo y título
 st.markdown("""
 <header>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_3yi4I09vqmWhm478F6IWs6RJKW96k9froA&s" />
     <h1>🧽 Restaurador de Imágenes - Centro Tecnológico Vicomtech</h1>
 </header>
 """, unsafe_allow_html=True)
